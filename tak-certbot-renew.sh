@@ -35,7 +35,6 @@ sudo keytool -import -alias bundle -trustcacerts -file /etc/letsencrypt/live/$FQ
 
 
 #copy files to common folder
-sudo mkdir /home/tak/tak-server/tak/certs/letsencrypt
 
 sudo cp ~/$HOSTNAME.jks /home/tak/tak-server/tak/certs/letsencrypt
 sudo cp ~/$HOSTNAME.p12 /home/tak/tak-server/tak/certs/letsencrypt

@@ -5,10 +5,8 @@ Auotmation script to run certbot renewal on expired SSL certificates, push the f
 
 ## Run this to stage the scripts locally
 
-``` cd /tmp/ && git clone https://github.com/atakhq/tak-letsencrypt-renew.git && sudo chmod -R +x * /tmp/tak-letsencrypt-renew/
-```
+``` cd /tmp/ && git clone https://github.com/atakhq/tak-letsencrypt-renew.git && sudo chmod -R +x * /tmp/tak-letsencrypt-renew/ ```
 
 ## Then run this to start the script
  
-``` cd /tmp/tak-letsencrypt-renew/ && ./tak-certbot-renew.sh 
-```
+``` cd /tmp/tak-letsencrypt-renew/ && ./tak-certbot-renew.sh ```
